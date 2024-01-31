@@ -6,8 +6,14 @@
 }
 @media (max-width: 500px) {
     .container {
+        position: relative;
         width: 98%;
         background: #0e0e0e;
+    }
+    .container .red-cicle {
+        position: absolute;
+        top: 131px;
+        right: 0px;
     }
     .menu nav {
         display: none;
@@ -93,8 +99,13 @@
     header .text-content-header {
         width: 355px;
         height: 527px;
-        /* margin-left: 20.9;
-        margin-right: 14.5; */
+    }
+    /* Points color */
+    header .blue-cicle {
+        position: absolute;
+        top: 354px;
+        left: 1px;
+        right: 340px;
     }
     .text-content-header p:first-of-type {
         font-size: 26px;

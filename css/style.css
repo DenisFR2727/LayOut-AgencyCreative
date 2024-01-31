@@ -11,9 +11,16 @@ body {
     font-family: Quicksand, Nunito;
 }
 .container {
+    position: relative;
     width: 1440px;
     margin: 0 auto;
     background: #0e0e0e;
+}
+.container .red-cicle {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    /* left: 20px; */
 }
 .header-top {
     position: relative;
@@ -91,6 +98,9 @@ body {
     font-weight: 700;
     color: #fff;
 }
+.menu input {
+    display: none;
+}
 .menu .contact-us {
     display: flex;
     justify-content: center;
@@ -114,16 +124,10 @@ header {
     position: relative;
     height: 1001px;
 }
-header .red-cicle {
-    position: absolute;
-    top: 97px;
-    left: 1404px;
-    right: -15px;
-}
 header .blue-cicle {
     position: absolute;
-    top: 97px;
-    left: 1404px;
+    top: 243px;
+    left: 94px;
     right: -15px;
 }
 header .text-content-header {
