@@ -1,0 +1,113 @@
+@media (min-width: 391px) {
+    .menu input[type='checkbox'],
+    .menu label {
+        display: none;
+    }
+}
+@media (max-width: 390px) and (max-width: 500px) {
+    .container {
+        width: 95%;
+        background: #0e0e0e;
+    }
+    .menu nav {
+        display: none;
+    }
+    /* ---- */
+    .container .menu nav {
+        display: block;
+        position: fixed;
+        height: 100vh;
+        width: 100vh;
+        left: -280px;
+        top: 0;
+        right: 0;
+        background: #0e0e0e;
+        z-index: 5;
+        margin-top: -100vh;
+        transition: 0.5s;
+    }
+    .container .menu nav > ul {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 30vh;
+    }
+    .container .menu nav > ul li {
+        height: 30px;
+        padding: 0;
+    }
+    .container .menu nav > ul li:hover {
+        width: 100%;
+        background: red;
+        transition: 2s;
+    }
+    .menu .contact-us {
+        display: none;
+    }
+    .menu input[type='checkbox'] {
+        display: none;
+    }
+    .menu label {
+        position: fixed;
+        right: 20px;
+        top: 35px;
+        color: #fff;
+        font-size: 30px;
+        z-index: 10;
+        cursor: pointer;
+    }
+    /* Якщо checkbox true то тоді меню показує! */
+    /* label name повинно співпадати з input id*/
+    .menu input[type='checkbox']:checked ~ nav {
+        /* display: block; */
+        margin-top: 0;
+        transition: 0.5s;
+    }
+    /* --- */
+    .header-top {
+        height: 113px;
+    }
+    .header-top .menu {
+        left: 25px;
+        right: 25px;
+        height: 33px;
+        top: 40px;
+        bottom: 40px;
+    }
+    .menu .logo img {
+        width: 32px;
+        height: 30px;
+    }
+    .menu .logo div > span {
+        line-height: 4px;
+    }
+    .menu .logo > div span:first-of-type {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .menu .logo > div span:last-of-type {
+        font-size: 12px;
+    }
+    /* ---Header--- */
+    header .text-content-header {
+        width: 355px;
+        height: 527px;
+        /* margin-left: 20.9;
+        margin-right: 14.5; */
+    }
+    .text-content-header p:first-of-type {
+        font-size: 26px;
+        letter-spacing: 0.28px;
+        padding-left: 5.9px;
+        padding-right: 6px;
+    }
+    .text-content-header p:last-of-type {
+        padding-left: 7px;
+        padding-right: 7px;
+        color: #e2e2e2;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.14px;
+    }
+}
