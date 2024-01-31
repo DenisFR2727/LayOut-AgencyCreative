@@ -1,4 +1,4 @@
-@media (min-width: 391px) {
+@media (min-width: 391px) and (max-width: 500px) {
     .menu input[type='checkbox'],
     .menu label {
         display: none;
@@ -6,7 +6,7 @@
 }
 @media (max-width: 390px) and (max-width: 500px) {
     .container {
-        width: 95%;
+        width: 98%;
         background: #0e0e0e;
     }
     .menu nav {
