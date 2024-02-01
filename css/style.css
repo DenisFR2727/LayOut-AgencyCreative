@@ -130,6 +130,11 @@ header .blue-cicle {
     left: 94px;
     right: -15px;
 }
+header .blue-cicle2 {
+    position: absolute;
+    top: 417px;
+    right: 194px;
+}
 header .text-content-header {
     text-align: center;
     margin: 0 auto;
@@ -178,4 +183,128 @@ header .text-content-header p {
     align-items: center;
     display: inline-flex;
     cursor: pointer;
+}
+/* ---bottom-header-- */
+header .bottom-header {
+    position: relative;
+    width: 985px;
+    height: 616px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-header img {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-header .bottom-block {
+    position: absolute;
+    width: 166px;
+    height: 166px;
+    background: #0d0d0d;
+    border-radius: 16px;
+}
+.bottom-header .bottom-block .content {
+    display: flex;
+    align-items: center;
+    margin-left: 21px;
+    margin-top: 21px;
+}
+.bottom-header .bottom-block {
+    position: absolute;
+    top: 401px;
+    right: 15.25px;
+}
+.bottom-header .bottom-block .content div > span {
+    display: block;
+    padding-left: 10px;
+}
+.bottom-header .bottom-block .content span:first-of-type {
+    color: #e2e2e2;
+    font-size: 10px;
+    font-family: Quicksand;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    word-wrap: break-word;
+}
+.bottom-header .bottom-block .content span:last-of-type {
+    color: #e2e2e2;
+    font-size: 6px;
+    font-family: Quicksand;
+    font-weight: 600;
+    letter-spacing: 0.06px;
+    word-wrap: break-word;
+}
+.bottom-header .bottom-block p {
+    color: #e2e2e2;
+    font-size: 10px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    word-wrap: break-word;
+    padding: 18px 20px 25px 21px;
+}
+.bottom-header .grid-red {
+    position: absolute;
+    top: 39.3px;
+    left: 262px;
+}
+.bottom-header .grid-white {
+    position: absolute;
+    left: 298.27px;
+    bottom: 37.49px;
+}
+.bottom-header .top-block {
+    position: absolute;
+    width: 175px;
+    height: 95px;
+    left: 17px;
+    top: 83px;
+    background: #0d0d0d;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    z-index: 1;
+}
+.bottom-header .top-block div {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.bottom-header .top-block div span {
+    color: #e2e2e2;
+    font-size: 12px;
+    font-family: Quicksand;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12px;
+    word-wrap: break-word;
+}
+.top-block p {
+    position: absolute;
+    left: 20px;
+    right: 31px;
+    bottom: 16px;
+    display: flex;
+    color: #e2e2e2;
+}
+.top-block p span:first-of-type {
+    color: #e2e2e2;
+    font-size: 24px;
+    font-family: Nunito;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
+}
+.top-block p span:last-of-type {
+    color: #e2e2e2;
+    font-size: 24px;
+    padding-left: 5px;
+    font-family: Nunito;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+    word-wrap: break-word;
 }
