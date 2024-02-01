@@ -99,13 +99,10 @@
     /* ---Header--- */
 
     header .text-content-header {
-        width: 70%;
+        width: 85%;
         /* width: 355px; */
         /* height: 527px; */
     }
-    /* header {
-        height: 700px;
-    } */
     /* Points color */
     header .blue-cicle {
         position: absolute;
