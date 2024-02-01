@@ -8,6 +8,7 @@
     .container {
         position: relative;
         width: 98%;
+        height: 6850px;
         background: #0e0e0e;
     }
     .container .red-cicle {
@@ -96,11 +97,15 @@
         font-size: 12px;
     }
     /* ---Header--- */
+
     header .text-content-header {
         width: 70%;
-        /* width: 355px;
-        height: 527px; */
+        /* width: 355px; */
+        /* height: 527px; */
     }
+    /* header {
+        height: 700px;
+    } */
     /* Points color */
     header .blue-cicle {
         position: absolute;
@@ -155,5 +160,48 @@
         position: relative;
         font-size: 12px;
         top: 12px;
+    }
+    .bottom-header .grid-red {
+        position: absolute;
+        top: 4px;
+        right: 0;
+    }
+    .bottom-header .grid-white {
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+    }
+    /* .bottom-header .bottom-block {
+        position: absolute;
+        right: -11px;
+        bottom: -21px;
+    } */
+    .bottom-header .bottom-block {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        right: -11px;
+        bottom: -21px;
+        top: 165px;
+        transform: scale(1);
+        transform-origin: top left;
+    }
+    .bottom-header .bottom-block img {
+        width: 15px;
+        height: 15px;
+    }
+    .bottom-header .bottom-block div > span {
+        font-size: 5px;
+    }
+    .bottom-header .bottom-block p {
+        padding: 3px 3px 3px 8px;
+        font-size: 5px;
+    }
+    .bottom-header .bottom-block .content {
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+    .bottom-header .bottom-block .content div {
+        margin-left: 10px;
     }
 }
