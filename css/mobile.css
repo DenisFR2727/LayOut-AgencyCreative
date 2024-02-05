@@ -100,13 +100,14 @@
 
     header .text-content-header {
         width: 85%;
-        /* width: 355px; */
-        /* height: 527px; */
+        height: max-content;
+    }
+    header {
+        height: 527px;
     }
     /* Points color */
     header .blue-cicle {
         position: absolute;
-        top: 354px;
         left: 1px;
         right: 340px;
     }
@@ -132,6 +133,7 @@
     header .bottom-header {
         width: 354px;
         height: 251px;
+        margin-top: 50px;
     }
     .bottom-header .header-img {
         width: 330px;
@@ -168,11 +170,6 @@
         left: 0;
         bottom: 0px;
     }
-    /* .bottom-header .bottom-block {
-        position: absolute;
-        right: -11px;
-        bottom: -21px;
-    } */
     .bottom-header .bottom-block {
         position: absolute;
         width: 80px;
@@ -191,7 +188,7 @@
         font-size: 5px;
     }
     .bottom-header .bottom-block p {
-        padding: 3px 3px 3px 8px;
+        padding: 3px 3px 3px 3px;
         font-size: 5px;
     }
     .bottom-header .bottom-block .content {
@@ -200,5 +197,61 @@
     }
     .bottom-header .bottom-block .content div {
         margin-left: 10px;
+    }
+
+    /* section block about */
+    section .block-about-us h3 {
+        font-size: 20px;
+    }
+    section .block-about-us h2 {
+        font-size: 28px;
+    }
+    .block-about-us .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section .content .block-img {
+        margin: 0 auto;
+        margin-top: 45px;
+    }
+    .block-about-us .block-img .team {
+        width: 340px;
+        height: 258px;
+    }
+    .block-about-us .block-img .orange-cicle {
+        display: none;
+    }
+    .block-about-us .block-img .purple-cicle {
+        position: absolute;
+        top: -12px;
+        left: 0;
+    }
+    .block-about-us .block-text-team {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 25px;
+        line-height: 24px;
+    }
+    .block-about-us .block-text-team p:nth-child(2) {
+        display: none;
+    }
+    .block-about-us .block-text-team .mobile {
+        display: block;
+    }
+    .block-text-team p {
+        margin: 0;
+    }
+    .block-btn {
+        width: 100%;
+    }
+    .block-text-team .block-btn .btn-us {
+        width: 124px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .block-text-team .block-btn .btn-our {
+        width: 150px;
+        font-size: 14px;
+        margin-left: 40px;
     }
 }
