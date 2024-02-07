@@ -426,3 +426,75 @@ section .content {
 .block-text-team .mobile {
     display: none;
 }
+/* --------Next block-------- */
+
+.services {
+    /* display: flex; */
+}
+/* right */
+.services .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 565px;
+    height: 579px;
+    color: #e2e2e2;
+}
+.services .right .blocks-social:first-of-type {
+    background: rgba(11, 15, 21, 1);
+}
+.services .right .blocks-social {
+    position: relative;
+    width: 262px;
+    height: 269px;
+    background: #0d0d0d;
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+}
+.services .right .blocks-social .content {
+    display: block;
+    margin: 0 auto;
+    margin: 35px;
+    top: 35px;
+    height: 200px;
+}
+.services .right .blocks-social .content div {
+    margin: 0 auto;
+    border-radius: 100%;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+}
+.services .right .blocks-social .content .white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .right .blocks-social .content img {
+    width: 42px;
+    height: 42px;
+}
+.services .right .blocks-social .content .red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 70, 70, 1);
+}
+.services .right .blocks-social .content .green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(142, 234, 119, 1);
+}
+.services .right .blocks-social .content .orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 178, 26, 1);
+}
+.services .right .blocks-social .content p {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+    width: 90%;
+}
