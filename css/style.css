@@ -429,7 +429,11 @@ section .content {
 /* --------Next block-------- */
 
 .services {
-    /* display: flex; */
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
 }
 /* right */
 .services .right {
@@ -438,6 +442,7 @@ section .content {
     justify-content: space-between;
     width: 565px;
     height: 579px;
+    margin-right: 100px;
     color: #e2e2e2;
 }
 .services .right .blocks-social:first-of-type {
@@ -497,4 +502,37 @@ section .content {
     text-align: center;
     padding-top: 32px;
     width: 90%;
+    font-family: Quicksand;
+}
+/* ---left-- */
+.services .left {
+    margin-left: 100px;
+    width: 521px;
+    height: 414px;
+    color: #e2e2e2;
+}
+.services .left h3 {
+    display: flex;
+    justify-content: flex-start;
+}
+.services .left p:first-of-type {
+    font-size: 55px;
+    font-family: Quicksand;
+    margin-top: 20px;
+}
+.services .left .text {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Quicksand;
+}
+.services .left p > a {
+    display: flex;
+    justify-content: flex-end;
+    color: #e2e2e2;
+    margin-top: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Quicksand;
 }
