@@ -353,6 +353,7 @@
     .portfolio .portfolio-block .bottom-block{
         width: 340px;
         margin: 20px;
+        margin: 0 auto;
         flex-direction: column-reverse;
      
     }
