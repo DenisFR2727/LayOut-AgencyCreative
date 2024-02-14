@@ -365,7 +365,7 @@
      .portfolio .portfolio-block .bottom-block div:nth-child(2) img{
         width: 340px;
         height: 341px;
-        width: 100%;
+        /* width: 100%; */
      }
      .portfolio-block .bottom-block div > p{
         position: absolute;
