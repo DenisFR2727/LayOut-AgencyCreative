@@ -373,15 +373,15 @@
         margin-right: 0;
         width: 100%;
      }
-     .portfolio-block .bottom-block div > p{
+     .portfolio-block .bottom-block div > p:last-of-type{
         position: absolute;
         color: rgba(226, 226, 226, 1);
         bottom: 30px;
-        font-size: 24px;
+        font-size: 18px;
         font-family: Quicksand;
         font-weight: 700;
         left: 40px;
-        width: 100%;
+        
     }
  
 }
