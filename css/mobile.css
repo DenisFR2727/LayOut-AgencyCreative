@@ -351,22 +351,27 @@
         width: 100%;
     }
     .portfolio .portfolio-block .bottom-block{
-        width: 340px;
         margin: 20px;
         flex-direction: column-reverse;
+     
     }
     .portfolio .portfolio-block .bottom-block div{
         margin: 0 auto;
         padding-top: 20px;
+        display: flex;
+        justify-content: center;
     }
     .portfolio .portfolio-block .bottom-block div img{
         width: 300px;
         height: 300px;
+        width: 85%;
      }
      .portfolio .portfolio-block .bottom-block div:nth-child(2) img{
         width: 340px;
         height: 341px;
-        /* width: 100%; */
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
      }
      .portfolio-block .bottom-block div > p{
         position: absolute;
@@ -375,6 +380,8 @@
         font-size: 24px;
         font-family: Quicksand;
         font-weight: 700;
+        left: 40px;
+        width: 100%;
     }
  
 }
