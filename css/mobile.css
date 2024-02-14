@@ -351,6 +351,7 @@
         width: 100%;
     }
     .portfolio .portfolio-block .bottom-block{
+        width: 340px;
         margin: 20px;
         flex-direction: column-reverse;
     }
