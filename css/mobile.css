@@ -398,6 +398,9 @@
         display: block;
         margin: 0;
     }
+    .testimonial .block-bottom .block-item {
+        height: 257px;
+    }
     .general-block h3 {
         font-size: 14px;
     }
