@@ -10,6 +10,7 @@
         width: 98%;
         height: 6850px;
         background: #0e0e0e;
+        overflow: hidden;
     }
     .container .red-cicle {
         position: absolute;
