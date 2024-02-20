@@ -387,7 +387,7 @@
     /*  testimonial */
     .testimonial {
         width: 85%;
-        
+        height: 500px;
     }
     .testimonial > .group-blue-one,.group-blue-two{
         display: none;
@@ -430,4 +430,58 @@
         line-height: 24px;
         letter-spacing: 1%;
     }
+    /* bottom block  */
+    .before-block-footer {
+        margin: 0 auto;
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .block-right div .img-one {
+        width: 221px;
+        height: 196px;
+    }
+  
+    .block-right div .img-two {
+        width: 180px;
+        height: 177px;
+    }
+    .block-right div > .white, .orange  {
+        display: none;
+    }
+    .before-block-footer .block-left{
+        margin-top: 100px;
+        width: 340px;
+    }
+    .before-block-footer .block-left p{
+        margin-top: 20px;
+        text-align: center;
+        width: 340px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .before-block-footer .block-left span{
+       display: flex;
+       justify-content: center;
+       margin-top: 20px;
+       font-size: 14px;
+       line-height: 34px;
+    }
+    .before-block-footer .block-left button{
+        margin: 20px auto;
+        padding: 10px 35px 10px 35px;
+     }
+    .before-block-footer .block-right  {
+       width: 340px;
+       left: 0;
+    }
+    .before-block-footer .block-right div .img-one {
+        position: relative;
+        left: 0;
+    }
+    .before-block-footer .block-right div .img-two {
+        right: 0;
+    }
+
 }

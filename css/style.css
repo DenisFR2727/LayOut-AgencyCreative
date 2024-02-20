@@ -720,7 +720,68 @@ section .content {
 .block-item .other span{
     display: block;
 }
+/* --------bottom-block--- */
 
+.before-block-footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+    width: 1240px;
+    height: 500px;
+    color: rgba(226, 226, 226, 1);
+}
+.before-block-footer .block-left{
+    display: block;
+    /* margin-left: 100px; */
+}
+.before-block-footer .block-left p{
+    width: 491px;
+   font-size: 55px;
+   line-height: 75.02px;
+   font-weight: 700;
+   font-family: Nunito;
+}
+.before-block-footer .block-left span{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 34px;
+   font-family: Quicksand;
+}
+.before-block-footer .block-left button{
+    display: block;
+    border-radius: 24px;
+    padding: 12px 50px 12px 50px;
+    margin-top: 20px;
+    color: rgba(13, 13, 13, 1);
+    font-weight: 700;
+    font-family: Quicksand;
+}
+.before-block-footer .block-right{
+    position: relative;
+    left: 25px;
+
+}
+.before-block-footer .block-right .img-one{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    z-index: 1;
+}
+.before-block-footer .block-right .img-two{
+    position: absolute;
+}
+.before-block-footer .block-right .white{
+    position: relative;
+    right: 315px;
+    bottom: 155px;
+}
+.before-block-footer .block-right .orange{
+    position: relative;
+    top: 72px;
+    right: 110px;
+}
 
 
 
