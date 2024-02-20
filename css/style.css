@@ -518,8 +518,9 @@ section .content {
 }
 .services .left p:first-of-type {
     font-size: 55px;
-    font-family: Quicksand;
+    font-family: Nunito;
     margin-top: 20px;
+    font-weight: 700;
 }
 .services .left .text {
     margin-top: 20px;
@@ -628,4 +629,98 @@ section .content {
     cursor: pointer;    
     font-family: Quicksand;
 }
+/* testimonial------------------- */
+.testimonial {
+    position: relative;
+    margin-top: 100px;
+    width: 1440px;
+    height: 602px;
+}
+.testimonial .general-block{
+    position: relative;
+    padding-top: 50px;
+}
+.testimonial .group-blue-one {
+    position: absolute;
+    left: 228px;
+}
+.testimonial .group-blue-two{
+    position: absolute;
+    left: 1262px;
+    bottom: 0;
+}
+.testimonial h3 {
+    text-align: center;
+    font-size: Quicksand;
+    color: rgba(226, 226, 226, 1);
+    font-weight: 600;
+    font-size: 24px;
+}
+.testimonial .text {
+    text-align: center;
+    margin-top: 22px;
+    font-size: Nunito;
+    color: rgba(226, 226, 226, 1);
+    font-weight: 700;
+    font-size: 55px;
+}
+/* 3 blocks */
+.testimonial .block-bottom {
+    display: flex;
+    justify-content: space-between;
+    font-family: Quicksand;
+    margin: 69px 100px;
+    width: 1240px;
+    height: 335px;
+    color: rgba(226, 226, 226, 1);
+}
+.testimonial .block-bottom .block-item{  
+    width: 380px;
+    height: 335px;
+    border-radius: 20px;
+    background: rgba(11, 15, 21, 1);
+}
+.block-item .user-vacancy {
+    display: flex;
+    margin-top: 49.25px;  
+    margin-left: 40px;
+}
+.block-item .user-vacancy .text-name{
+    align-self: center;
+}
+.block-item .user-vacancy .text-name span{
+    display: block;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.block-item .user-vacancy .text-name span:last-of-type{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.block-item .user-vacancy img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-position: center center;
+}
+.block-item .other{
+    width: 309px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight:  400;
+    line-height: 28px;
+}
+.block-item .other-mobile {
+    display: none;
+}
+.block-item .other span{
+    display: block;
+}
+
+
+
 

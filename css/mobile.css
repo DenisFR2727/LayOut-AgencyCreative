@@ -366,14 +366,13 @@
     .portfolio .portfolio-block .bottom-block div img{
         width: 300px;
         height: 300px;
-        /* width: 85%; */
+     }
+     .portfolio .portfolio-block .bottom-block div img:hover{
+        box-shadow: 5px 5px 15px rgba(226, 226, 226, 0.543);
      }
      .portfolio .portfolio-block .bottom-block div:nth-child(2) img{
         width: 340px;
         height: 341px;
-        margin-left: 0;
-        margin-right: 0;
-        /* width: 100%; */
      }
      .portfolio-block .bottom-block div > p:last-of-type{
         position: absolute;
@@ -383,7 +382,47 @@
         font-family: Quicksand;
         font-weight: 700;
         left: 40px;
+    }
+    /*  testimonial */
+    .testimonial {
+        width: 85%;
         
     }
- 
+    .testimonial > .group-blue-one,.group-blue-two{
+        display: none;
+    }
+    .testimonial .block-bottom{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+    .general-block h3 {
+        font-size: 14px;
+    }
+    .general-block .text {
+        font-size: 24px;
+    }
+    .testimonial .block-item:nth-of-type(n+2) {
+        display: none;
+    }
+    .block-item .other {
+        /* width: 340px; */
+        display: none;
+    }
+    .testimonial .block-bottom .block-item {
+        /* width: 340px; */
+    }
+    .testimonial .block-bottom .block-item .user-vacancy{
+        padding-top: 40px;
+    }
+    .block-item .other-mobile {
+        display: block;
+        width: 280px;
+        margin-left: 40px;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight:  400;
+        line-height: 24px;
+        letter-spacing: 1%;
+    }
 }
