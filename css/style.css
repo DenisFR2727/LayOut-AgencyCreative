@@ -792,9 +792,6 @@ footer .block-footer {
     width: 1240px;
     margin: 0 auto;
 }
-footer .block-footer ul {
-    /* display: inline-block; */
-}
 footer .block-footer .contacts{
     display: flex;
     justify-content: space-between;
