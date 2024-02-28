@@ -10,7 +10,7 @@
         width: 98%;
         height: 6850px;
         background: #0e0e0e;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .container .red-cicle {
         position: absolute;
@@ -483,5 +483,28 @@
     .before-block-footer .block-right div .img-two {
         right: 0;
     }
-
+/* footer */
+    footer {
+        width: 100%;
+    }
+    footer .block-footer {
+        padding-top: 0;
+        width: 85%;
+    }
+    footer .block-footer .contacts{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    footer .block-footer .contacts ul{
+        padding-top: 50px;
+    }
+    footer .block-socials .socials{
+       display: flex;
+       justify-content: space-between;
+       width: 280px;
+    }
+    footer .block-socials  .line{
+        width: 100%;
+     }
 }

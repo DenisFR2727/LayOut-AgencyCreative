@@ -782,6 +782,108 @@ section .content {
     top: 72px;
     right: 110px;
 }
+/* Footer */
+footer {
+    background: rgba(56, 54, 56, 1);
+    width: 1440px;
+}
+footer .block-footer {
+    padding-top: 100px;
+    width: 1240px;
+    margin: 0 auto;
+}
+footer .block-footer ul {
+    /* display: inline-block; */
+}
+footer .block-footer .contacts{
+    display: flex;
+    justify-content: space-between;
+}
+footer .block-footer ul li{
+    color: rgba(226, 226, 226, 1);
+    list-style: none;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+footer .block-footer ul li a{
+    color: rgba(226, 226, 226, 1);
+    text-decoration: none;
+}
+footer .block-footer ul li:first-of-type{
+    font-weight: 700;
+    font-size: 22px;
+}
+/* logo */
+footer .block-footer ul .logo {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    width: 187px;
+    height: 88px;
+    border-radius: 20px;
+    background: rgba(226, 226, 226, 1);;
+}
+footer .block-footer ul .logo span{
+    display: block;
+    margin-left: 10px;
+    line-height: 20px;
+    color: rgba(29, 29, 29, 1);
+    font-size: 16px;
+}
+footer .block-footer ul .logo span:first-of-type{
+    font-weight: 700;
+    font-size: 20px;
+}
+footer .block-footer .block-socials {
+    display: block;
+    margin-top: 50px;
+}
+.block-footer .block-socials .socials{
+    margin: 0 auto;
+}
+.block-socials .socials{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.block-socials .socials a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background: rgba(226, 226, 226, 1);
+}
+.block-socials .socials a:hover {
+    background: rgba(154, 149, 149, 0.842);
+}
+.block-socials .socials a img {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    color: rgba(56, 54, 56, 1);
+}
+.block-socials .line{
+    margin: 20px auto;
+    width: 500px;
+    border: 0.5px solid rgba(226, 226, 226, 1);
+}
+.block-socials .social-text {
+    text-align: center;
+    padding: 20px;
+    color: rgba(226, 226, 226, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 
+}
+.links-hidden {
+    opacity: 0;
+}
 
 
